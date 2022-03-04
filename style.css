@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 60%;
+    padding: 10px;
+}
+.head{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: indianred;
+}
+.btn-container{
+    text-align: center;
+    margin: 2rem 0;
+}
+button{
+    margin-left: 1rem;
+    background-color: transparent;
+    border: 1px solid rgb(12, 11, 12);
+    padding: 5px;
+    border-radius: 10px;
+    color: blue;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+section{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    width: 45%;
+    border: 1px solid pink;
+    background-color: rgb(252, 248, 248);
+    margin: 10px;
+    height: 300px;
+    background-color: rgba(138, 127, 127,0.3);
+}
+article:hover{
+    transform: translate(-2px,-2px);
+    transform: scale(1.05,1.05);
+    cursor:pointer;
+}
+img{
+    width: 100%;
+    height: 180px;
+}
+#category{
+    text-align: center;
+    color: rgb(6, 116, 150);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+.cost{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: rgb(15, 27, 194);
+}
+.price{
+    font-size: 1.2rem;
+    color: red;
+    margin-right: 5px;
+}
+.desc{
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-size: .9rem;
+    color: rgb(7, 7, 7);
+    text-align: justify;
+    padding: 2px 5px;
+}
